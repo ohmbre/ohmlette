@@ -1,0 +1,7 @@
+Record=TopLevelDocument|FileName=mix.SchDoc
+Record=SheetSymbol|SourceDocument=ch.SchDoc|Designator=lxo|SchDesignator=lxo|FileName=xover.SchDoc|SymbolType=Normal|RawFileName=xover.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
+Record=SheetSymbol|SourceDocument=ch.SchDoc|Designator=rxo|SchDesignator=rxo|FileName=xover.SchDoc|SymbolType=Normal|RawFileName=xover.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
+Record=SheetSymbol|SourceDocument=mix.SchDoc|Designator=ch1|SchDesignator=ch1|FileName=ch.SchDoc|SymbolType=Normal|RawFileName=ch.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
+Record=SheetSymbol|SourceDocument=mix.SchDoc|Designator=ch2|SchDesignator=ch2|FileName=ch.SchDoc|SymbolType=Normal|RawFileName=ch.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
+Record=SheetSymbol|SourceDocument=mix.SchDoc|Designator=ch3|SchDesignator=ch3|FileName=ch.SchDoc|SymbolType=Normal|RawFileName=ch.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
+Record=SheetSymbol|SourceDocument=mix.SchDoc|Designator=ch4|SchDesignator=ch4|FileName=ch.SchDoc|SymbolType=Normal|RawFileName=ch.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
