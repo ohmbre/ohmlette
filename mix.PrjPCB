@@ -86,7 +86,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=NKMJNSSO
+DocumentUniqueId=IYXUMLHK
 
 [Document4]
 DocumentPath=mix.PcbLib
@@ -206,6 +206,10 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
+
+[GeneratedDocument1]
+DocumentPath=Project Outputs for mix\Net Status - mix.html
+DItemRevisionGUID=
 
 [Configuration1]
 Name=Sources
