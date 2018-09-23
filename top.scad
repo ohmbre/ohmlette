@@ -1,20 +1,21 @@
-module panel(w,h,t) {
-    cube([t,w,h]);
+
+module panel(w,h) {
+    square([w,h]);
+    //square([.02,h]);
+    //translate([w,0]) square([0.02,h]);
+    //square([w,.02]);
+    //translate([0,h]) square([w,0.02]);
+    
 }
 
 module drill(x,y,d) {
-    translate([0,x,y]) {
-        rotate([0,90,0]) {
-            cylinder($fn=70,h=4,r1=d/2,
-                r2=d/2,center=true);
-        }
-    }
+    translate([x,y]) 
+            circle(d=d,$fn=70);
 }
 
 module cutout(x0,y0,w,h) {
-    translate([-2,x0,y0]){
-        cube([4,w,h]);
-    }
+    translate([x0,y0])
+        square([w,h]);
 }
 
 mm = 0.0393701;
@@ -23,7 +24,6 @@ mm = 0.0393701;
 
 w=10.21;
 h=7.874;
-t=0.04;
 
 module pot(x,y) {
     drill(x,y,7.3*mm);
@@ -37,6 +37,10 @@ module sw(x,y) {
 module jk(x) {
     drill(x,6.785,12*mm);
 }    
+
+
+
+
 
 x1 = 2.695;
 x2 = 4.795;
@@ -53,9 +57,8 @@ y6 = 5.825;
 
 ysw1 = 1.25;
 ysw2 = 6.765;
-
-difference(){
-    panel(w,h,t);
+difference() {
+    panel(w,h);
     
     pot(x1,y1);
     pot(x1,y2);
@@ -109,6 +112,8 @@ difference(){
     jk(6.774);
     jk(8.874);
     
-    drill(w-4.498,h-.3,.169);
+    drill(w-4.498,h-.473,.169);
 
 }
+
+    
