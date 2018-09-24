@@ -1,12 +1,7 @@
-
-*.SchDocPreview
-*.AnnotationPreview
 *.log
 *.Zip
 *.htm
-*.txt
 *.CSPcbDocPreview
-*.idx
 *.Cam
 Project Outputs for mix/mix.apr
 Project Outputs for mix/mix.DRR
@@ -33,6 +28,4 @@ PDNAnalyzer_Output/mix/ODBTemp/mix.REP
 PDNAnalyzer_Output/mix/ODBTemp/mix.tgz
 PDNAnalyzer_Output/mix/ODBTemp/mix_netlist.rep
 PDNAnalyzer_Output/mix/ODBTemp/odb/fonts/standard
-mix.pcbdoc_EDMD/AD_EDMD_State.xml
 Project Outputs for mix/mix-macro.APR_LIB
-*.cctpref
