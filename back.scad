@@ -15,8 +15,8 @@ module cutout(x0,y0,w,h) {
 mm = 0.0393701;
 
 
-
-w=10.774;
+//10.5512;
+w=10.5; 
 h=40*mm;
 
 difference(){
@@ -41,8 +41,8 @@ difference(){
     drill(w-5*mm,35*mm,2.5*mm);
     
     drill(15*mm,h+1.5*mm-.009,8.25*mm);
-    
-    cutout(8.094,0.05,2.229,1.355);
+    drill(w-25*mm,.55,15.5*mm);
+    //cutout(8.094,0.05,2.229,1.355);
     cutout(4.61,h-.19,.38,.16);
 }
 
